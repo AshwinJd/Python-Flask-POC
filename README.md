@@ -15,3 +15,13 @@
 
 **4. Run Mongo**
 > docker-compose -f docker-compose-mongo.yml up -d
+
+
+
+**Lint Check**
+> pylint src common --rcfile=./lintrules.rc
+
+
+**Run Test cases**
+- Make sure mongo is running, since the test cases uses mongo
+> python -m pytest
