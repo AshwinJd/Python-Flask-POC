@@ -1,4 +1,5 @@
 from flask import current_app as app
+
 from common import mongo_connector
 
 
